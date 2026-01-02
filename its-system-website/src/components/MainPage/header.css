@@ -1,0 +1,20 @@
+section {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.header {
+
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu__item {
+    display: inline-flex;
+    padding-right: 15px;
+}
