@@ -1,0 +1,36 @@
+.brands-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    gap: 60px;
+
+    animation: spin 10s infinite linear;
+    margin-right: 70px;
+}
+
+.brands-slider__container {
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+    width: 100%;
+    border-top: 3px dashed rgba(0, 0, 0, 0.3);
+    border-bottom: 3px dashed rgba(0, 0, 0, 0.3);
+}
+.brands-slider__container::-webkit-scrollbar {
+    display: none;
+}
+
+.brands-item {
+    flex: 0 0 5em;
+    list-style: none;
+}
+
+@keyframes spin {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

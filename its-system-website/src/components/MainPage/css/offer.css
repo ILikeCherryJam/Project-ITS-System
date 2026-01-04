@@ -1,0 +1,64 @@
+.offer-content {
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    background-image: 
+        linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0), 
+            rgba(255, 255, 255, 1)
+        ), 
+        url('../../../assets/pictures/fixing-printer.png');
+    border-radius: 10px;
+}
+
+.offer-slogan {
+    font-size: 24px;
+    color: red;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.offer-description {
+    display: block;
+    padding-top: 20px;
+}
+
+.offer-desc__item {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 48px;
+    font-weight: 1000;
+    gap: 20px;
+}
+.offer-desc__item span {
+    color: #0075ff;
+}
+
+.offer-expirience {
+    display: inline-flex;
+    padding-top: 20px;
+}
+.offer-expirience span {
+    font-size: 60px;
+    color: red;
+}
+
+.offer-exp__text p {
+    font-size: 18px;
+}
+
+.offer-button {
+    padding: 50px 0;
+}
+.offer-button::after {
+    content: 'Оставить заявку';
+    background-color: #3457a2;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}

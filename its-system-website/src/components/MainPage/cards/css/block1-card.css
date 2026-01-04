@@ -1,0 +1,25 @@
+.block1-card {
+    background-color: #003f77;
+    width: 33%;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.block1-card__title {
+    color: #f3df71;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 75%;
+    margin-bottom: 20px;
+}
+
+.block1-card__image {
+    height: 100px;
+    margin: 20px 0;
+}
