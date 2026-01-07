@@ -1,0 +1,73 @@
+
+
+
+.condition-description {
+    margin-left: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+}
+
+.condition-item::before {
+    content: url("../../../assets/pictures/red-check-mark.svg");
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+.condition-item {
+    list-style: none;
+    padding-left: 1em;
+    text-indent: -.55em;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.condition-image {
+    max-width: 100%;
+    height: 300px;
+    background-size: cover !important;
+    background: url('../../../assets/pictures/office-image.jpg');
+    border-radius: 10px;
+}
+
+.block-condition {
+    display: flex;
+    gap: 50px;
+    padding: 50px 0;
+    justify-content: space-between;;
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: 
+        linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0), 
+            rgba(255, 255, 255, 1)
+        ), 
+        url('../../../assets/pictures/low-opacity-background.jpg');
+    border-radius: 10px;
+}
+
+.condition-column {
+    text-align: right;
+    align-items: baseline;
+    top: 0;
+}
+
+.condition-button {
+    padding-top: 250px;
+}
+
+.condition-slogan {
+    margin-top: 50px;
+    content: '';
+    background-image: url("../../../assets/pictures/slogan.svg");
+    width: 500px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,28 @@
+.block-title__colored {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.block-title__colored span {
+    color: red
+}
+
+.block-title.block-title__discount {
+    margin: 0;
+}
+
+.discount-content img {
+    border-radius: 10px;
+}
+
+.discount-slogan {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #003f77;
+    margin: 20px 0 0 0;
+}
+.discount-slogan span {
+    color: red;
+    cursor: pointer;
+}

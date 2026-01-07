@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@2gis/mapgl": "^1.67.0",
+    "2gis-maps": "^4.0.10",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },

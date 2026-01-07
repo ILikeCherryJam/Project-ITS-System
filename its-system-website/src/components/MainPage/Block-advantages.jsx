@@ -4,7 +4,7 @@ import Block1Card from './cards/Block1-card.jsx';
 function BlockAdvantages() {
     return (
         <div className="uk-container block1-container">
-            <h1 className='block1-title'>Почему выбирают нас?</h1>
+            <h1 className='block-title'>Почему выбирают нас?</h1>
             <div className="block1">
                 <div className="block1-content">
                     <Block1Card 

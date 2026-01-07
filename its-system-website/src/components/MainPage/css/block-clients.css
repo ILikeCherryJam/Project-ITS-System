@@ -1,0 +1,8 @@
+.clients-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.client-image {
+    margin: 20px 0;
+}
