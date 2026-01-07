@@ -9,6 +9,7 @@
     border-radius: 10px;
     text-align: center;
     align-items: center;
+    transition: all 0.25s;
 }
 
 .block1-card__title {
@@ -17,9 +18,35 @@
     font-weight: bold;
     max-width: 75%;
     margin-bottom: 20px;
+    transition: all 0.25s;
 }
 
 .block1-card__image {
     height: 100px;
     margin: 20px 0;
+    transition: all 0.25s;
+}
+
+.block1-card__descriptions {
+    position: absolute;
+    width: 20%;
+    color: #ffffff;
+    opacity: 0;
+    transition: all 0.25s;
+    font-size: 18px;
+}
+
+.block1-card__description {
+    padding: 20px 0;
+}
+
+.block1-card:hover .block1-card__descriptions {
+    opacity: 1;
+}
+.block1-card:hover .block1-card__title,
+.block1-card:hover .block1-card__image {
+    opacity: 0;
+}
+.block1-card:hover {
+    background-color: #045dac;
 }

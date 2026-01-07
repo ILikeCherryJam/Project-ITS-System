@@ -1,0 +1,50 @@
+.footer {
+    background-color: #deedee;
+}
+
+.foot-margin {
+    margin: 20px 0;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
+}
+
+.footer-info {
+    text-align: right;
+}
+
+
+.footer-link {
+    text-decoration: none;
+    color: #60b467;
+    font-size: 20px;
+}
+.footer-link:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.footer__phone-number {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.footer__phone-number p:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.footer-adress {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.foot-contacts {
+    justify-content: flex-end;
+}
