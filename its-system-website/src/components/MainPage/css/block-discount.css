@@ -9,10 +9,12 @@
 
 .block-title.block-title__discount {
     margin: 0;
+    
 }
 
 .discount-content img {
     border-radius: 10px;
+    max-width: 100%;
 }
 
 .discount-slogan {

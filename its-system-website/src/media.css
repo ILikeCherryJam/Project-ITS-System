@@ -66,6 +66,31 @@
     .condition-image {
         margin: 0 100px;
     }
+
+
+    .discount-content img {
+        border-radius: 0 !important;
+    }
+
+
+
+
+    .footer-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-info {
+        text-align: center !important;
+    }
+
+    .footer__phone-number,
+    .foot-contacts {
+        justify-content: center !important;
+        font-size: 20px !important;
+    }
+
+
 }
 
 /* desktop */
