@@ -1,6 +1,10 @@
 import './css/header.css';
+import { useState } from 'react';
 
 const Header = () => {
+
+  const [display, setDisplay] = useState(false);
+
   return (
     
     <section className="header">
@@ -14,7 +18,9 @@ const Header = () => {
                 <p className="header-menu__item">Нам доверяют</p>
                 <p className="header-menu__item">Контакты</p>
             </div>
-            <ul className="header-menu__btn">
+            <ul className="header-menu__btn"
+              onClick={() => {setDisplay(prev => !prev)}}
+            >
               <li className='header-menu__btn-line'></li>
               <li className='header-menu__btn-line'></li>
               <li className='header-menu__btn-line'></li>
@@ -25,6 +31,15 @@ const Header = () => {
               <img src="./src/assets/contacts/phone.svg" alt="svg" />
             </div>
           </div>
+        </div>
+      </div>
+      <div className={display ? "header-menu__list-slide active" : "header-menu__list-slide"}>
+        <div className="uk-container header-slide">
+          <p className="header-menu__item slide">Почему мы</p>
+          <p className="header-menu__item slide">Корпоративным клиентам</p>
+          <p className="header-menu__item slide">Аутсортинг печати</p>
+          <p className="header-menu__item slide">Нам доверяют</p>
+          <p className="header-menu__item slide">Контакты</p>
         </div>
       </div>
       <div className="header-bottom">
@@ -45,6 +60,7 @@ const Header = () => {
           </div>
         </div> 
       </div>
+      
     </section>
     
   )
