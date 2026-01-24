@@ -7,6 +7,7 @@ function Offer() {
     return (
         <div className="offer">
             <div className="uk-container">
+                <div className="offer-image"></div>
                 <div className="offer-content">
                     <p className='offer-slogan'>Сохраним Ваши деньги, время и нервы</p>
                     <div className='offer-description'>

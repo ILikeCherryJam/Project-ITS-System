@@ -1,8 +1,8 @@
 .offer-content {
+    text-align: right;
     content: "";
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: right;
     background-image: 
         linear-gradient(
             to right,
@@ -11,6 +11,16 @@
         ), 
         url('../../../assets/pictures/fixing-printer.png');
     border-radius: 10px;
+}
+.offer-image {
+    width: 100%;
+    height: 300px;
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:
+        url('../../../assets/pictures/fixing-printer.png');
+    display: none;
 }
 
 .offer-slogan {

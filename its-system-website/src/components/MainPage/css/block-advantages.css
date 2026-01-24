@@ -1,17 +1,12 @@
-.block1 {
-}
+
 
 .block1-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.block-title {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #003f77;
-    font-weight: 1000;
-    margin: 30px 0;
-}
+
 
 .block-title::before {
     content: "";

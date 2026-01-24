@@ -14,6 +14,11 @@ const Header = () => {
                 <p className="header-menu__item">Нам доверяют</p>
                 <p className="header-menu__item">Контакты</p>
             </div>
+            <ul className="header-menu__btn">
+              <li className='header-menu__btn-line'></li>
+              <li className='header-menu__btn-line'></li>
+              <li className='header-menu__btn-line'></li>
+            </ul>
             <div className='header-contacts'>
               <img src="./src/assets/contacts/telegram.svg" alt="svg" />
               <img src="./src/assets/contacts/whatsapp.svg" alt="svg" />
