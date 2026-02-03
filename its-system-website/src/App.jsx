@@ -7,7 +7,9 @@ import BlockDiscount from "./components/MainPage/Block-discount"
 import BlockClients from "./components/MainPage/Block-clients"
 import Footer from "./components/MainPage/Footer"
 
+
 function App() {
+
 
   return (
     <>

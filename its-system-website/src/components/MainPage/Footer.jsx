@@ -1,4 +1,5 @@
 import './css/footer.css';
+import YandexMap from './YandexMap';
 
 function Footer() {
     return (
@@ -30,6 +31,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
+                <YandexMap />
             </div>
         </div>
     );
