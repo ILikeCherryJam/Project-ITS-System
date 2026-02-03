@@ -6,7 +6,7 @@ import BlockCondition from "./components/MainPage/Block-condition"
 import BlockDiscount from "./components/MainPage/Block-discount"
 import BlockClients from "./components/MainPage/Block-clients"
 import Footer from "./components/MainPage/Footer"
-
+import Contacts from "./components/MainPage/cards/Contacts"
 
 function App() {
 
@@ -14,6 +14,8 @@ function App() {
   return (
     <>
       <Header />
+      <Contacts />
+
       <Offer />
       <Brands />
       <BlockAdvantages />

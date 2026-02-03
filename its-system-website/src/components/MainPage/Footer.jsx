@@ -9,7 +9,7 @@ function Footer() {
                 <div className="footer-box">
                     <div className="footer__logo hb__first-column">
                         <div className="hb__logo">
-                          <img src="./src/assets/logo/test-logo.png" alt="test-logo" />
+                          <img src="./src/assets/logo/its-system.png" alt="test-logo" />
                         </div>
                         <p className="hb__slogan">
                             Ремонт, заправка и обслуживание оргтехники
@@ -23,7 +23,7 @@ function Footer() {
                         <p className='footer-adress foot-margin'>
                             Казахстан, город Астана, район Байконыр, улица Ахмета Жубанова, дом 4
                             </p>
-                        <a className='footer-link foot-margin' href="#">insert the link</a>
+                        <a className='footer-link foot-margin' href="#">Наша почта</a>
                         <div className="header-contacts foot-contacts foot-margin">
                             <img src="./src/assets/contacts/telegram.svg" alt="svg" />
                             <img src="./src/assets/contacts/whatsapp.svg" alt="svg" />

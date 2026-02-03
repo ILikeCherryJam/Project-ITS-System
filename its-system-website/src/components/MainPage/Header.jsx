@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     
-    <section className="header">
+    <section className="header fixed">
       <div className="header-upper">
         <div className="uk-container">
           <div className="header-upper__menu">
@@ -47,7 +47,7 @@ const Header = () => {
           <div className="header-bottom__list">
             <div className="hb__first-column">
               <div className="hb__logo">
-                <img src="./src/assets/logo/test-logo.png" alt="test-logo" />
+                <img src="./src/assets/logo/its-system.png" alt="test-logo" />
               </div>
               <p className="hb__slogan">
                   Ремонт, заправка и обслуживание оргтехники

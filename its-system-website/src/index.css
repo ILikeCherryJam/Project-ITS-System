@@ -23,9 +23,20 @@ p {
 
 .no-select {
   user-select: none;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none;     /* старый Edge */
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
+
+.fixed {
+    position: fixed;
+    z-index: 1000;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
 
 
 

@@ -1,0 +1,26 @@
+.contacts-container {
+    right: 0;
+    top: 300px;
+}
+
+.contacts {
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px 0 0 20px;
+    height: 200px;
+}
+
+.contacts-icons {
+    display: none;
+    flex-direction: column;
+    margin: 0 10px;
+    justify-content: center;
+    gap: 15px;
+}
+.contacts-icons.active {
+    display: flex;
+}
+
+.contacts-btn img {
+    height: 200px;
+}
