@@ -1,5 +1,6 @@
 import './css/header.css';
 import { useState } from 'react';
+import Logo from '../../assets/logo/its-system.png';
 
 const Header = () => {
 
@@ -47,7 +48,7 @@ const Header = () => {
           <div className="header-bottom__list">
             <div className="hb__first-column">
               <div className="hb__logo">
-                <img src="./src/assets/logo/its-system.png" alt="test-logo" />
+                <img src={Logo} alt="test-logo" />
               </div>
               <p className="hb__slogan">
                   Ремонт, заправка и обслуживание оргтехники

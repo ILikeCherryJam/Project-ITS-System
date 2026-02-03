@@ -1,5 +1,6 @@
 import './css/footer.css';
 import YandexMap from './YandexMap';
+import Logo from '../../assets/logo/its-system.png';
 
 function Footer() {
     return (
@@ -9,7 +10,7 @@ function Footer() {
                 <div className="footer-box">
                     <div className="footer__logo hb__first-column">
                         <div className="hb__logo">
-                          <img src="./src/assets/logo/its-system.png" alt="test-logo" />
+                          <img src={Logo} alt="test-logo" />
                         </div>
                         <p className="hb__slogan">
                             Ремонт, заправка и обслуживание оргтехники

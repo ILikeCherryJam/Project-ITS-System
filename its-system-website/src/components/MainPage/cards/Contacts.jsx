@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './css/contacts.css';
+import contactBtn from '../../../assets/contacts/contacts-btn.svg';
 
 
 function Contacts() {
@@ -11,7 +12,7 @@ function Contacts() {
             <div className="contacts">
                 <div className="contacts-btn cursor-pointer">
                     <img
-                        src="./src/assets/contacts/contacts-btn.svg" 
+                        src={contactBtn} 
                         alt="Contacts Button"
                         onClick={() => {setDisplay(prev => !prev)}}
                         />
