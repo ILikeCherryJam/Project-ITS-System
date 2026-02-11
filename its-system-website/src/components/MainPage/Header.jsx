@@ -27,9 +27,15 @@ const Header = () => {
               <li className='header-menu__btn-line'></li>
             </ul>
             <div className='header-contacts'>
-              <img src="./src/assets/contacts/telegram.svg" alt="svg" />
-              <img src="./src/assets/contacts/whatsapp.svg" alt="svg" />
-              <img src="./src/assets/contacts/phone.svg" alt="svg" />
+              <a href="mailto:tileubergenovv@mail.ru" className="header-contact">
+                <img src="./src/assets/contacts/email.svg" alt="svg" />
+              </a>
+              <a href="//wa.me/+77478439112" className="header-contact">
+                <img src="./src/assets/contacts/whatsapp.svg" alt="svg" />
+              </a>
+              <a href="tel:+77478439112" className="header-contact">
+                <img src="./src/assets/contacts/phone.svg" alt="svg" />
+              </a>
             </div>
           </div>
         </div>

@@ -21,18 +21,24 @@ function Contacts() {
                     display ? "contacts-icons active" : "contacts-icons"
 
                 }>
-                    <img 
-                        src="./src/assets/contacts/whatsapp.svg" 
-                        alt="WhatsApp Icon" 
-                        />
-                    <img 
-                        src="./src/assets/contacts/phone.svg" 
-                        alt="Phone Icon" 
-                        />
-                    <img 
-                        src="./src/assets/contacts/email.svg" 
-                        alt="Email Icon" 
-                        />
+                    <a href="" className="icon-contact">
+                        <img 
+                            src="./src/assets/contacts/whatsapp.svg" 
+                            alt="WhatsApp Icon" 
+                            />
+                    </a>
+                    <a href="" className="icon-contact">
+                        <img 
+                            src="./src/assets/contacts/phone.svg" 
+                            alt="Phone Icon" 
+                            />
+                    </a>
+                    <a href="mailto:tileubergenovv@mail.ru" className="icon-contact">
+                        <img 
+                            src="./src/assets/contacts/email.svg" 
+                            alt="Email Icon" 
+                            />
+                    </a>
                 </div>
             </div>
         </div>
